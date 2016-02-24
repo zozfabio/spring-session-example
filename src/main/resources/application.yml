@@ -1,4 +1,2 @@
-server:
-  port: 0
 logging:
     file: /var/log/spring-session-example.log
