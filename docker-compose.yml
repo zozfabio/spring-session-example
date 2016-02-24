@@ -1,0 +1,8 @@
+sessions:
+  image: redis
+spring-session-example:
+  image: java/spring-session-example
+  links:
+    - sessions:redis
+  ports:
+    - 8080:8080
